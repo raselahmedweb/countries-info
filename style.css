@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.singleCountries {
+    width: 320px;
+    background: #f4f5f6;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+}
+
+.countryInfo {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    font-family: sans-serif;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.countryNumber {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #8a8aa5;
+}
